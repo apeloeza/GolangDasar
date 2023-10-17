@@ -1,0 +1,22 @@
+Komentar di GO
+
+Komentar adalah teks yang diabaikan saat dieksekusi.
+Komentar dapat digunakan untuk menjelaskan kode dan membuatnya lebih mudah dibaca.
+Komentar juga dapat digunakan untuk mencegah eksekusi kode saat menguji kode alternatif.
+Go mendukung komentar satu baris atau banyak baris.
+
+Buka Komentar Satu Baris
+    
+lihat dalam main.go
+Komentar satu baris dimulai dengan dua garis miring ( //).
+Teks apa pun di antara //dan akhir baris akan diabaikan oleh kompiler (tidak akan dieksekusi).
+
+Buka Komentar Multi-baris
+
+Komentar multi-baris dimulai dengan /*dan diakhiri dengan */.
+Teks apa pun di antara /*dan */akan diabaikan oleh kompiler:
+
+Komentar untuk Mencegah Eksekusi Kode
+
+Anda juga dapat menggunakan komentar untuk mencegah kode dieksekusi.
+Kode yang dikomentari dapat disimpan untuk referensi dan pemecahan masalah nanti.

@@ -1,0 +1,2 @@
+sumber : https://www-kelche-co.translate.goog/blog/go/zerolog/?_x_tr_sl=en&_x_tr_tl=id&_x_tr_hl=id&_x_tr_pto=tc
+install : go get github.com/rs/zerolog

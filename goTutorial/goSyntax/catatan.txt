@@ -1,0 +1,26 @@
+Buka Sintaks
+
+File Go terdiri dari bagian-bagian berikut:
+
+    Deklarasi paket
+    Impor paket
+    Fungsi
+    Pernyataan dan ekspresi
+
+Lihatlah di main.go
+
+Contoh dijelaskan
+
+Baris 1     : Di Go, setiap program adalah bagian dari sebuah paket. Kami mendefinisikan ini menggunakan packagekata kunci. Dalam contoh ini, program tersebut termasuk dalam mainpaket.
+Baris 3     : import ("fmt") memungkinkan kita mengimpor file yang disertakan dalam fmt paket.
+Baris 2 & 6 : Baris kosong. Go mengabaikan spasi. Memiliki spasi putih dalam kode membuatnya lebih mudah dibaca.
+Baris 7     : func main() {} adalah suatu fungsi. Kode apa pun di dalam tanda kurung kurawal {} akan dieksekusi.
+Baris 9     : fmt.Println() adalah fungsi yang tersedia dari fmt paket. Ini digunakan untuk mengeluarkan/mencetak teks. Dalam contoh kita, ini akan menampilkan "Halo Dunia!".
+            Catatan: Di Go, kode apa pun yang dapat dieksekusi adalah milik mainpaket.
+
+Pernyataan Go
+
+fmt.Println ("Hello World!") adalah sebuah pernyataan.
+Di Go, pernyataan dipisahkan dengan mengakhiri sebuah baris (menekan tombol Enter) atau dengan titik koma " ;".
+Menekan tombol Enter akan menambahkan " ;" ke akhir baris secara implisit (tidak muncul di kode sumber).
+Tanda kurung kurawal kiri { tidak boleh berada di awal baris.

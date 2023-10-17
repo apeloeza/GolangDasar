@@ -1,0 +1,4 @@
+go mod init <directory>
+    membuat go mod dengan direktori nama projek yang dibuat
+go mod tidy
+    untuk download recuirement yang dibutuhkan

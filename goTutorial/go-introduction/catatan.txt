@@ -1,0 +1,105 @@
+go
+
+Apa itu Go?
+
+    Go adalah bahasa pemrograman sumber terbuka lintas platform
+    Go dapat digunakan untuk membuat aplikasi berkinerja tinggi
+    Go adalah bahasa yang cepat, diketik secara statis, dan dikompilasi yang terasa seperti bahasa yang diketik secara dinamis dan ditafsirkan
+    Go dikembangkan di Google oleh Robert Griesemer, Rob Pike, dan Ken Thompson pada tahun 2007
+    Sintaks Go mirip dengan C++
+
+Untuk Apa Go Digunakan?
+
+    Pengembangan web (sisi server)
+    Mengembangkan program berbasis jaringan
+    Mengembangkan aplikasi perusahaan lintas platform
+    Pengembangan cloud-native
+
+
+Mengapa Menggunakan Pergi?
+
+    Go itu menyenangkan dan mudah dipelajari
+    Go memiliki waktu pengoperasian dan waktu kompilasi yang cepat
+    Go mendukung konkurensi
+    Go memiliki manajemen memori
+    Go berfungsi di berbagai platform (Windows, Mac, Linux, Raspberry Pi, dll.)
+
+Dibandingkan dengan Python dan C++
+- Diketik secara statis
+- Waktu berjalan cepat
+- Disusun
+- Waktu kompilasi yang cepat
+- Mendukung konkurensi melalui goroutine dan saluran    
+- Memiliki pengumpulan sampah otomatis
+- Tidak mendukung kelas dan objek
+- Tidak mendukung warisan
+
+Pergi 	                                            ular piton 	                            C++
+Diketik secara statis 	                            Diketik secara dinamis 	                Diketik secara statis
+Waktu berjalan cepat 	                            Waktu berjalan lambat 	                Waktu berjalan cepat
+Disusun 	                                        Ditafsirkan 	                        Disusun
+Waktu kompilasi yang cepat 	                        Ditafsirkan 	                        Waktu kompilasi yang lambat
+Mendukung konkurensi melalui goroutine dan saluran 	Tidak ada mekanisme konkurensi bawaan 	Mendukung konkurensi melalui thread
+Memiliki pengumpulan sampah otomatis 	            Memiliki pengumpulan sampah otomatis 	Tidak memiliki pengumpulan sampah otomatis
+Tidak mendukung kelas dan objek 	                Memiliki kelas dan objek 	            Memiliki kelas dan objek
+Tidak mendukung warisan 	                        Mendukung warisan 	                    Mendukung warisan
+
+Mulailah
+
+Untuk mulai menggunakan Go, Anda memerlukan dua hal:
+    - Editor teks, seperti VS Code, untuk menulis kode Go
+    - Kompiler, seperti GCC, untuk menerjemahkan kode Go ke dalam bahasa yang dapat dimengerti oleh komputer
+Ada banyak editor teks dan kompiler yang dapat dipilih. Dalam tutorial ini, kita akan menggunakan IDE (lihat di bawah).
+
+Pergi Instal
+
+Anda dapat menemukan file instalasi yang relevan di https://golang.org/dl/ .
+Ikuti instruksi yang terkait dengan sistem operasi Anda. Untuk memeriksa apakah Go berhasil diinstal, Anda dapat menjalankan perintah berikut di jendela terminal:
+
+    'go version'
+
+Yang seharusnya menunjukkan versi instalasi Go Anda.
+
+Pergi Instal IDE
+
+IDE (Integrated Development Environment) digunakan untuk mengedit DAN mengkompilasi kode.
+IDE populer termasuk Visual Studio Code (VS Code), Vim, Eclipse, dan Notepad. Ini semua gratis, dan dapat digunakan untuk mengedit dan men-debug kode Go.
+Catatan: IDE berbasis web juga dapat berfungsi, namun fungsinya terbatas.
+Kami akan menggunakan VS Code dalam tutorial kami, yang kami yakini merupakan awal yang baik.
+Anda dapat menemukan VS Code versi terbaru di https://code.visualstudio.com/ .
+
+Membuka projek pertama kita
+    
+Mari kita buat program Go pertama kita.
+
+    Luncurkan editor VS Code
+    Buka pengelola ekstensi atau alternatifnya, tekanCtrl + Shift + x
+    Di kotak pencarian, ketik "pergi" dan tekan enter
+    Temukan ekstensi Go oleh tim GO di Google dan instal ekstensi tersebut
+    Setelah instalasi selesai, buka palet perintah dengan menekan Ctrl + Shift + p
+    Jalankan Go: Install/Update Toolsperintah
+    Pilih semua alat yang disediakan dan klik OK
+
+VS Code sekarang dikonfigurasi untuk menggunakan Go.
+
+Buka jendela terminal dan ketik:
+
+    'go mod init example.com/hello'
+
+Jangan khawatir jika Anda tidak mengerti alasan kami mengetikkan perintah di atas. Anggap saja ini adalah sesuatu yang selalu Anda lakukan, dan Anda akan mempelajarinya lebih lanjut di bab berikutnya.
+Buat file baru ( File > New File). Salin dan tempel kode berikut dan simpan file sebagai helloworld.go( File > Save As):
+
+Sekarang, jalankan kode: Buka terminal di VS Code  dan ketik:
+go run .\helloworld.go
+atau
+cd <nama file>
+go run helloworld.go
+
+akan tampil
+> Hello World!
+
+Selamat ! Anda sekarang telah menulis dan menjalankan program Go pertama Anda.
+
+Jika Anda ingin menyimpan program sebagai program yang dapat dieksekusi, ketik dan jalankan:
+go build helloworld.go
+

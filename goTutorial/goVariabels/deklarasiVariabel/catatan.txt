@@ -1,0 +1,19 @@
+Variabel di go
+
+Buka Jenis Variabel
+
+Di Go, ada berbagai jenis variabel, misalnya:
+
+    int- menyimpan bilangan bulat (bilangan bulat), seperti 123 atau -123
+    float32- Menyimpan angka floating point, dengan desimal, seperti 19,99 atau -19,99
+    string- menyimpan teks, seperti "Hello World". Nilai string diapit oleh tanda kutip ganda
+    bool- menyimpan nilai dengan dua status: benar atau salah
+
+Lebih lanjut mengenai tipe-tipe variabel yang berbeda, akan dijelaskan pada bab Tipe Data Go => https://www-w3schools-com.translate.goog/go/go_data_types.php?_x_tr_sl=en&_x_tr_tl=id&_x_tr_hl=id&_x_tr_pto=tc
+
+Mendeklarasikan (Membuat) Variabel
+
+Di Go, ada dua cara untuk mendeklarasikan variabel:
+1. Dengan varkata kunci :
+
+Gunakan varkata kunci, diikuti dengan nama dan jenis variabel:
